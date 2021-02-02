@@ -11,9 +11,10 @@ NEXT_PUBLIC_FAKE_BLOG_NAME=<YOUR_FAKE_BLOG_NAME>
 NEXT_PUBLIC_ORIGINAL_BLOG_NAME=<YOUR_FAKE_ORIGINAL_BLOG_NAME>
 NEXT_PUBLIC_ORIGINAL_BLOG_LINK=<YOUR_FAKE_ORIGINAL_BLOG_LINK>
 NEXT_PUBLIC_TWITTER_LINK=<YOUR_TWITTER_LINK>
+NEXT_PUBLIC_BUGFENDER_API_KEY=<YOUR_BUGFENDER_API_KEY>
 ```
 
-> Please Note: The app runs without these environment variables. These just makes it more fun!
+> Please Note: The app runs without most of these environment variables. Only `NEXT_PUBLIC_BUGFENDER_API_KEY` is important for the Bugfender integration.
 
 Run this command,
 
