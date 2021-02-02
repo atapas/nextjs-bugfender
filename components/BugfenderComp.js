@@ -5,7 +5,7 @@ const BugfenderComp = props => {
     
     console.log('Initializing BugfenderComp');
     Bugfender.init({
-        appKey: 'VocUSyztliDe9H98ZowwQEoOfqObXfRR',
+        appKey: process.env.NEXT_PUBLIC_BUGFENDER_API_KEY,
     })
 
     if (props.type === 'log') {

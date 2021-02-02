@@ -3,7 +3,7 @@ import { Bugfender } from '@bugfender/sdk'
 const NextBugfender = {
     init: () => {
         Bugfender.init({
-            appKey: 'VocUSyztliDe9H98ZowwQEoOfqObXfRR',
+            appKey: process.env.NEXT_PUBLIC_BUGFENDER_API_KEY,
         })
     },
 
